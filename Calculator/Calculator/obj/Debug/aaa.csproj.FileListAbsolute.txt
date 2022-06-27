@@ -1,0 +1,11 @@
+C:\Users\IVT-341_1\Desktop\Praktika\aaa\aaa\bin\Debug\aaa.exe.config
+C:\Users\IVT-341_1\Desktop\Praktika\aaa\aaa\bin\Debug\aaa.exe
+C:\Users\IVT-341_1\Desktop\Praktika\aaa\aaa\bin\Debug\aaa.pdb
+C:\Users\IVT-341_1\Desktop\Praktika\aaa\aaa\obj\Debug\aaa.csproj.AssemblyReference.cache
+C:\Users\IVT-341_1\Desktop\Praktika\aaa\aaa\obj\Debug\aaa.csproj.SuggestedBindingRedirects.cache
+C:\Users\IVT-341_1\Desktop\Praktika\aaa\aaa\obj\Debug\aaa.Form1.resources
+C:\Users\IVT-341_1\Desktop\Praktika\aaa\aaa\obj\Debug\aaa.Properties.Resources.resources
+C:\Users\IVT-341_1\Desktop\Praktika\aaa\aaa\obj\Debug\aaa.csproj.GenerateResource.cache
+C:\Users\IVT-341_1\Desktop\Praktika\aaa\aaa\obj\Debug\aaa.csproj.CoreCompileInputs.cache
+C:\Users\IVT-341_1\Desktop\Praktika\aaa\aaa\obj\Debug\aaa.exe
+C:\Users\IVT-341_1\Desktop\Praktika\aaa\aaa\obj\Debug\aaa.pdb
