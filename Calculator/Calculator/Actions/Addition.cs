@@ -10,18 +10,13 @@ using System.Windows.Forms;
 using Calculator.Properties;
 
 
-namespace aaa.Actions
+namespace Calculator.Actions
 {
-    internal class Add
+    public class Add
     {
-        //private void btnPlus_Click(object sender, EventArgs e)
-        //{
-        //    lbRes.Text = Convert.ToString(x + y); // Выводим результат x + y
-        //    if ((tbOne.Text == "") || (tbTwo.Text == "")) // Если какое-то из полей пустое выводим ошибку
-        //    {
-        //        lbRes.Text = "";
-        //        MessageBox.Show("Введены неверные значения");
-        //    }
-        //}
+        public double Addition(double x, double y)
+        {
+            return x + y;
+        }
     }
 }

@@ -63,7 +63,7 @@
             this.btnPlus.TabIndex = 2;
             this.btnPlus.Text = "+";
             this.btnPlus.UseVisualStyleBackColor = true;
-            this.btnPlus.Click += new System.EventHandler(this.btnPlus_Click);
+            this.btnPlus.Click += new System.EventHandler(this.ALLClick);
             // 
             // btnMinus
             // 
@@ -73,7 +73,7 @@
             this.btnMinus.TabIndex = 2;
             this.btnMinus.Text = "-";
             this.btnMinus.UseVisualStyleBackColor = true;
-            this.btnMinus.Click += new System.EventHandler(this.btnMinus_Click);
+            this.btnMinus.Click += new System.EventHandler(this.ALLClick);
             // 
             // btnMultiple
             // 
@@ -83,7 +83,7 @@
             this.btnMultiple.TabIndex = 2;
             this.btnMultiple.Text = "*";
             this.btnMultiple.UseVisualStyleBackColor = true;
-            this.btnMultiple.Click += new System.EventHandler(this.btnMultiple_Click);
+            this.btnMultiple.Click += new System.EventHandler(this.ALLClick);
             // 
             // btnDiv
             // 
@@ -93,7 +93,7 @@
             this.btnDiv.TabIndex = 2;
             this.btnDiv.Text = "/";
             this.btnDiv.UseVisualStyleBackColor = true;
-            this.btnDiv.Click += new System.EventHandler(this.btnDiv_Click);
+            this.btnDiv.Click += new System.EventHandler(this.ALLClick);
             // 
             // label1
             // 
@@ -187,7 +187,7 @@
             this.btnDivX.TabIndex = 11;
             this.btnDivX.Text = "1/x";
             this.btnDivX.UseVisualStyleBackColor = true;
-            this.btnDivX.Click += new System.EventHandler(this.btnDivX_Click);
+            this.btnDivX.Click += new System.EventHandler(this.ALLClick);
             // 
             // btnXPow
             // 
@@ -197,7 +197,7 @@
             this.btnXPow.TabIndex = 11;
             this.btnXPow.Text = "x^(1/y)";
             this.btnXPow.UseVisualStyleBackColor = true;
-            this.btnXPow.Click += new System.EventHandler(this.btnXPow_Click);
+            this.btnXPow.Click += new System.EventHandler(this.ALLClick);
             // 
             // Form1
             // 

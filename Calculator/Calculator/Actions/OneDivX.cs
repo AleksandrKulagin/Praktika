@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Calculator.Actions
 {
-    public class Div
+    public class DivOnX
     {
-        public double Division(double x, double y)
+        public double OneDivOnX(double x, double y)
         {
-            return x / y;
+            return 1 / x;
         }
     }
 }

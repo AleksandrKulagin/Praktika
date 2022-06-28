@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace aaa.Actions
+namespace Calculator.Actions
 {
-    internal class Sub
+    public class Sub
     {
+        public double Substraction(double x, double y)
+        {
+            return x - y;
+        }
     }
 }
