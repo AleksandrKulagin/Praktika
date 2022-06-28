@@ -135,7 +135,7 @@ namespace Calculator
             if (e.KeyChar == ((char)Keys.Back) || e.KeyChar == '.' || e.KeyChar == ',' || e.KeyChar >= '0' && e.KeyChar <= '9') // Считываем введенный символ
             {
                 if (e.KeyChar == '.') e.KeyChar = ','; // Замена вводимой . на , в первом поле
-                if (e.KeyChar == '0' && tbOne.Text == "0") e.Handled = true; // Запрет возможности ввода нескольких нолей
+                if (e.KeyChar == '0' && tbOne.Text == "0") e.Handled = true; // Запрет возможности ввода нескольких нолей до ,
                 if (e.KeyChar == ',' && tbOne.Text.IndexOf(',') > -1) e.Handled = true; // Запрет ввода нескольких ,
             }
             else e.Handled = true;
@@ -146,7 +146,7 @@ namespace Calculator
             if (e.KeyChar == ((char)Keys.Back) || e.KeyChar == '.' || e.KeyChar == ',' || e.KeyChar >= '0' && e.KeyChar <= '9') // Считываем введенный символ
             {
                 if (e.KeyChar == '.') e.KeyChar = ',';  // Замена вводимой . на , во втором поле 
-                if (e.KeyChar == '0' && tbTwo.Text == "0") e.Handled = true; // Запрет возможности ввода нескольких нолей
+                if (e.KeyChar == '0' && tbTwo.Text == "0") e.Handled = true; // Запрет возможности ввода нескольких нолей до ,
                 if (e.KeyChar == ',' && tbTwo.Text.IndexOf(',') > -1) e.Handled = true; // Запрет ввода нескольких ,
             }
             else e.Handled = true;
