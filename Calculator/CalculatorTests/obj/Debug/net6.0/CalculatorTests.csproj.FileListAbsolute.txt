@@ -1,0 +1,16 @@
+C:\Users\Aleks\OneDrive\Документы\GitHub\Praktika\Calculator\CalculatorTests\bin\Debug\net6.0\CalculatorTests.deps.json
+C:\Users\Aleks\OneDrive\Документы\GitHub\Praktika\Calculator\CalculatorTests\bin\Debug\net6.0\CalculatorTests.dll
+C:\Users\Aleks\OneDrive\Документы\GitHub\Praktika\Calculator\CalculatorTests\bin\Debug\net6.0\CalculatorTests.pdb
+C:\Users\Aleks\OneDrive\Документы\GitHub\Praktika\Calculator\CalculatorTests\bin\Debug\net6.0\Calculator.exe
+C:\Users\Aleks\OneDrive\Документы\GitHub\Praktika\Calculator\CalculatorTests\bin\Debug\net6.0\Calculator.pdb
+C:\Users\Aleks\OneDrive\Документы\GitHub\Praktika\Calculator\CalculatorTests\bin\Debug\net6.0\Calculator.exe.config
+C:\Users\Aleks\OneDrive\Документы\GitHub\Praktika\Calculator\CalculatorTests\obj\Debug\net6.0\CalculatorTests.csproj.AssemblyReference.cache
+C:\Users\Aleks\OneDrive\Документы\GitHub\Praktika\Calculator\CalculatorTests\obj\Debug\net6.0\CalculatorTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aleks\OneDrive\Документы\GitHub\Praktika\Calculator\CalculatorTests\obj\Debug\net6.0\CalculatorTests.AssemblyInfoInputs.cache
+C:\Users\Aleks\OneDrive\Документы\GitHub\Praktika\Calculator\CalculatorTests\obj\Debug\net6.0\CalculatorTests.AssemblyInfo.cs
+C:\Users\Aleks\OneDrive\Документы\GitHub\Praktika\Calculator\CalculatorTests\obj\Debug\net6.0\CalculatorTests.csproj.CoreCompileInputs.cache
+C:\Users\Aleks\OneDrive\Документы\GitHub\Praktika\Calculator\CalculatorTests\obj\Debug\net6.0\CalculatorTests.csproj.CopyComplete
+C:\Users\Aleks\OneDrive\Документы\GitHub\Praktika\Calculator\CalculatorTests\obj\Debug\net6.0\CalculatorTests.dll
+C:\Users\Aleks\OneDrive\Документы\GitHub\Praktika\Calculator\CalculatorTests\obj\Debug\net6.0\refint\CalculatorTests.dll
+C:\Users\Aleks\OneDrive\Документы\GitHub\Praktika\Calculator\CalculatorTests\obj\Debug\net6.0\CalculatorTests.pdb
+C:\Users\Aleks\OneDrive\Документы\GitHub\Praktika\Calculator\CalculatorTests\obj\Debug\net6.0\ref\CalculatorTests.dll
