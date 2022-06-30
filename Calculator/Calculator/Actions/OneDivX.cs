@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace Calculator.Actions
 {
-    public class DivOnX
+    public class DivOnX : ITwoArgumentsCalculator
     {
-        public double OneDivOnX(double x, double y)
+        public double Calculate(double firstNum, double secondNum)
+        {
+            throw new NotImplementedException();
+        }
+
+        public double OneDivOnX(double x)
         {
             return 1 / x;
         }

@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace Calculator.Actions
 {
-    public class Mult
+    public class Mult : ITwoArgumentsCalculator
     {
+        public double Calculate(double firstNum, double secondNum)
+        {
+            throw new NotImplementedException();
+        }
+
         public double Multiplication(double x, double y)
         {
             return x * y;

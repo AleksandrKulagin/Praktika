@@ -12,11 +12,16 @@ using Calculator.Properties;
 
 namespace Calculator.Actions
 {
-    public class Add
+    public class Add : ITwoArgumentsCalculator
     {
         public double Addition(double x, double y)
         {
             return x + y;
+        }
+
+        public double Calculate(double firstNum, double secondNum)
+        {
+            throw new NotImplementedException();
         }
     }
 }

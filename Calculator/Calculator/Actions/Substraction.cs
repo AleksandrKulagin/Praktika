@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace Calculator.Actions
 {
-    public class Sub
+    public class Sub : ITwoArgumentsCalculator
     {
+        public double Calculate(double firstNum, double secondNum)
+        {
+            throw new NotImplementedException();
+        }
+
         public double Substraction(double x, double y)
         {
             return x - y;
