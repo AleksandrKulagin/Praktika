@@ -25,7 +25,6 @@ namespace Calculator
 
         private void ALLClick(object sender, EventArgs e)
         {
-            lbRes.Text = "";
             Button btnSend = (Button)sender; // Записываем кнопку-отправитель
             operation = btnSend.Name; //Присваиваем переменной operation имя кнопки-отправителя
 
@@ -73,17 +72,18 @@ namespace Calculator
             {
                 firstNum = Convert.ToDouble(x);
                 secondNum = Convert.ToDouble(y);
+                double result = CreateCalc(operation);
+                lbRes.Text = result.ToString();
             }
             else
             {
                 if ((operation == "btnDivX") && (tbOne.Text != "")) // Если операция 1/х ,то конвертируем только поле с х 
                 {
                     firstNum = Convert.ToDouble(x);
+                    double result = CreateCalc(operation);
+                    lbRes.Text = result.ToString();
                 }
             }
-
-            double result = Creatror(operation);
-            lbRes.Text = result.ToString();
         }
 
         public void tbOne_TextChanged(object sender, EventArgs e)

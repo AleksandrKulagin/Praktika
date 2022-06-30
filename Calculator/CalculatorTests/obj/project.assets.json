@@ -41,6 +41,15 @@
           "build/NUnit.props": {}
         }
       },
+      "NUnit.Extension.NUnitProjectLoader/3.7.1": {
+        "type": "package"
+      },
+      "NUnit3TestAdapter/4.2.1": {
+        "type": "package",
+        "build": {
+          "build/netcoreapp2.1/NUnit3TestAdapter.props": {}
+        }
+      },
       "Calculator/1.0.0": {
         "type": "project",
         "compile": {
@@ -222,6 +231,46 @@
         "nunit.nuspec"
       ]
     },
+    "NUnit.Extension.NUnitProjectLoader/3.7.1": {
+      "sha512": "cZYJoUlx4wu9PU/ue6glZQDK3VHDBG0ZI4jK4wIp9+km7wktjxGqtpp7UodGdsgceJyvOQcXTM72Q7pm74XiVg==",
+      "type": "package",
+      "path": "nunit.extension.nunitprojectloader/3.7.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGES.md",
+        "LICENSE.txt",
+        "nunit.extension.nunitprojectloader.3.7.1.nupkg.sha512",
+        "nunit.extension.nunitprojectloader.nuspec",
+        "tools/nunit-project-loader.dll"
+      ]
+    },
+    "NUnit3TestAdapter/4.2.1": {
+      "sha512": "kgH8VKsrcZZgNGQXRpVCrM7TnNz9li3b/snH+YmnXUNqsaWa1Xw9EQWHpbzq4Li2FbTjTE/E5N5HdLNXzZ8BpQ==",
+      "type": "package",
+      "path": "nunit3testadapter/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net35/NUnit3.TestAdapter.dll",
+        "build/net35/NUnit3.TestAdapter.pdb",
+        "build/net35/NUnit3TestAdapter.props",
+        "build/net35/nunit.engine.api.dll",
+        "build/net35/nunit.engine.core.dll",
+        "build/net35/nunit.engine.dll",
+        "build/net35/testcentric.engine.metadata.dll",
+        "build/netcoreapp2.1/NUnit3.TestAdapter.dll",
+        "build/netcoreapp2.1/NUnit3.TestAdapter.pdb",
+        "build/netcoreapp2.1/NUnit3TestAdapter.props",
+        "build/netcoreapp2.1/nunit.engine.api.dll",
+        "build/netcoreapp2.1/nunit.engine.core.dll",
+        "build/netcoreapp2.1/nunit.engine.dll",
+        "build/netcoreapp2.1/testcentric.engine.metadata.dll",
+        "nunit3testadapter.4.2.1.nupkg.sha512",
+        "nunit3testadapter.nuspec"
+      ]
+    },
     "Calculator/1.0.0": {
       "type": "project",
       "path": "../Calculator/Calculator.csproj",
@@ -231,7 +280,9 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Calculator >= 1.0.0",
-      "NUnit >= 3.13.3"
+      "NUnit >= 3.13.3",
+      "NUnit.Extension.NUnitProjectLoader >= 3.7.1",
+      "NUnit3TestAdapter >= 4.2.1"
     ]
   },
   "packageFolders": {
@@ -285,6 +336,14 @@
           "NUnit": {
             "target": "Package",
             "version": "[3.13.3, )"
+          },
+          "NUnit.Extension.NUnitProjectLoader": {
+            "target": "Package",
+            "version": "[3.7.1, )"
+          },
+          "NUnit3TestAdapter": {
+            "target": "Package",
+            "version": "[4.2.1, )"
           }
         },
         "imports": [

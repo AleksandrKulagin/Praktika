@@ -11,7 +11,7 @@ namespace Calculator
     public static class TwoArgumentsFactory
     {
         public static double firstNum, secondNum;
-        public static double Creatror(string calculatorName)
+        public static double CreateCalc(string calculatorName)
 
         {
             switch (calculatorName)

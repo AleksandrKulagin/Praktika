@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Calc";
+}
+
+@using (Html.BeginForm("Index", "Home", "Post"))
+{
+    <input type="number" name="firstArgument" value="" placeholder="Первый аргумент"/>
+    <select name="operation">
+        @for (int i = 0; i < ViewBag.Operation.Length; i++)
+        {
+            <option value="@ViewBag.Operation[i].Value">
+                @ViewBag.Operation[i].Text
+            </option>
+        }
+    </select>
+    <input type="number" name="secondArgument" value="" placeholder="Второй аргумент"/>
+    <input type="submit" value="="/>
+    <a>@ViewBag.Result</a>
+}
